@@ -1,0 +1,4 @@
+let voceEstaComFome = String(prompt("Voce esta com fome? Responda com 'sim' ou 'nao'"))
+let voceTemDinheiro = String(prompt("Voce tem dinheiro? Responda com 'sim' ou 'nao'"))
+let oRestauranteEstaAberto = String(prompt("O restaurante que voce quer ir esta aberto? Responda com 'sim' ou 'nao'"))
+if(voceEstaComFome === "nao" || voceTemDinheiro === "nao"){console.log("Hmm, nesse caso, hoje vamos jantar em casa!")}else if(voceTemDinheiro === "sim" && oRestauranteEstaAberto === "sim"){console.log("Eba! Entao, hoje o jantar sera no seu restaurante preferido!")}else{console.log("Ja que o restaurante esta fechado, vamos pedir um Delivery!")}

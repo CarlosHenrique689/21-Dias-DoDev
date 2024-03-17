@@ -58,10 +58,3 @@ console.log('O seu salto total é de: R$' + saldoTotal)
 console.log('O maior valor inserido foi de: R$' + maiorValorInserido)
 console.log('A média dos valores inseridos foi de: R$' + mediaDosValoresInseridos)
 console.log('Obrigado, o caixa eletrônico agradece sua visita. Tenha um ótimo dia!')
-
-
-
-
-
-
-
